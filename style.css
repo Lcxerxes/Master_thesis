@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #333c40;
+    color: #a5a1a1;
+}
+
+/* Header */
+header {
+    background-color: #00000045;
+    color: #288b5e;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #8a77a7;
+    text-decoration: none;
+    
+}
+
+/* Section Styles */
+section {
+    padding: 100px;
+    margin:  100px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #bbafbe;
+}
+
+article h3 {
+    color: #ffffff;
+}
+/* Limit the width of the main content to 800px and center it */
+section {
+    max-width: 900px;
+    margin: 0 auto; /* Center content */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #0056b3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
